@@ -14,6 +14,34 @@ const Projects = () => {
         <div className="single-project">
           <SiReact className="project-logo" />
           <div className="project-description">
+            <span className="project-title">Netflix Clone</span>
+            <div className="project-link-buttons">
+              <a
+                href="https://github.com/Jegadeesh2/netflix-clone"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="link-btn">
+                  <SiGithub />
+                  Code URL
+                </button>
+              </a>
+              <a
+                href="https://jega-netflix-clone.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="link-btn">
+                  <SiNetlify />
+                  Live URL
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="single-project">
+          <SiReact className="project-logo" />
+          <div className="project-description">
             <span className="project-title">Food Cart</span>
             <div className="project-link-buttons">
               <a
