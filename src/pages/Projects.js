@@ -27,7 +27,7 @@ const Projects = () => {
                 </button>
               </a>
               <a
-                href="https://jega-netflix-clone.netlify.app/"
+                href="https://fullstack-project-clone.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
